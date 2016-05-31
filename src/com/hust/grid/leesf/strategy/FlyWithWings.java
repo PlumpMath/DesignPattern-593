@@ -1,0 +1,8 @@
+package com.hust.grid.leesf.strategy;
+
+public class FlyWithWings implements FlyBehavior {
+	@Override
+	public void fly() {
+		System.out.println("fly with wings");
+	}
+}
